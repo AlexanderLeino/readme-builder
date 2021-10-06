@@ -59,11 +59,6 @@ inquirer.prompt( [
 
                     {
                         type: 'type',
-                        name: 'contributions',
-                        message: 'Did anyone else contribute to this project? If so please indicate who.',
-                    },
-                    {
-                        type: 'type',
                         name: 'questionsEmail',
                         message: 'If anyone has any additional questions what is the best email to reach you by?.',
                     },
@@ -84,7 +79,6 @@ inquirer.prompt( [
 .then((answers) => {
     let {year, name, title, description, installation, usage, license, contributions, questionsEmail, questionsGithub, repo} = answers
     const markDownTemplate = markDownGenerator(answers)
-    console.log(answers)
 
     fs.writeFile('ReadMe.Md',markDownTemplate, function(err) {
         if(err) throw err
@@ -92,4 +86,4 @@ inquirer.prompt( [
     })
 })
 
-//Things I need help with. Getting 
+

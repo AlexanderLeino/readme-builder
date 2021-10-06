@@ -1,8 +1,8 @@
 
 # ReadMe Generator
 # Description
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-It works by installing inquirer
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
+It works using inquirer to generate prompts that the user will answer and then once answered they will generate some mark down
 # Table of Contents
 [Description](#Description)<br>
 [Installation](#Installation)<br>
@@ -12,9 +12,9 @@ It works by installing inquirer
 [tests](#Tests)<br>
 [Questions](#Questions)<br>
 # Installation<br>
-npm i inquirer 
+npm i 
 # Usage
-manually creating readMe 
+Creating readmes in a matter of seconds instead of minutes 
 # License 
 Copyright Enter Year Here and Enter Name Here
     
@@ -29,5 +29,5 @@ www.opensource.org/licenses/MIT
 # Tests
 npm i 
 # Questions
-
-
+Alexander.Leino@yahoo.com
+https://github.com/AlexanderLeino
